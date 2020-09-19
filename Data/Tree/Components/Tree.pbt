@@ -50,12 +50,6 @@ Objects {
   }
   ParentId: 14415300772706496238
   UnregisteredParameters {
-    Overrides {
-      Name: "cs:Trigger"
-      ObjectReference {
-        SelfId: 14415300772706496238
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

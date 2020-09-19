@@ -3,6 +3,14 @@
   Name: "Void"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+      Overrides {
+        Name: "cs:Trigger"
+        ObjectReference {
+          SelfId: 14415300772706496238
+        }
+      }
+    }
   }
-  SerializationVersion: 62
+  SerializationVersion: 63
 }

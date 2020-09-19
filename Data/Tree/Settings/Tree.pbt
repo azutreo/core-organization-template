@@ -27,7 +27,7 @@ Objects {
 }
 Objects {
   Id: 10247024335774272296
-  Name: "Camera"
+  Name: "Primary"
   Transform {
     Location {
       Z: 190

@@ -2,7 +2,7 @@
 RootId: 13993065374689110807
 Objects {
   Id: 11357974322781573795
-  Name: "Third Person"
+  Name: "Primary"
   Transform {
     Location {
     }
@@ -68,8 +68,6 @@ Objects {
       AbilityAimMode {
         Value: "mc:eabilityaimmode:viewrelative"
       }
-      AppearanceChannelingTime: 2
-      MountChannelingTime: 2
       FlipOnMultiJump: true
     }
   }

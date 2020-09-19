@@ -14,11 +14,14 @@ Objects {
       Z: 1
     }
   }
+  ChildIds: 17879924926419492736
   ChildIds: 16805577375719089602
+  ChildIds: 11367646586856977032
   ChildIds: 5468045072130652745
-  ChildIds: 15126207785216231226
-  ChildIds: 16838762091188105191
-  ChildIds: 17271386665552096026
+  ChildIds: 15200848935840344137
+  ChildIds: 15445705037976461651
+  ChildIds: 13166939408216695751
+  ChildIds: 15721658923682352833
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -31,8 +34,8 @@ Objects {
   }
 }
 Objects {
-  Id: 17271386665552096026
-  Name: "Main Scene"
+  Id: 15721658923682352833
+  Name: "Scenery"
   Transform {
     Location {
       Z: -50
@@ -54,153 +57,12 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Main Scene"
+    FilePartitionName: "Scenery"
   }
 }
 Objects {
-  Id: 16838762091188105191
-  Name: "User Interface"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  ChildIds: 8062808815584278198
-  ChildIds: 10054876388446881474
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Canvas {
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 10054876388446881474
-  Name: "DefaultContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16838762091188105191
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "DefaultContext"
-  }
-}
-Objects {
-  Id: 8062808815584278198
-  Name: "ClientContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16838762091188105191
-  ChildIds: 14861867652853957610
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  NetworkContext {
-  }
-}
-Objects {
-  Id: 14861867652853957610
-  Name: "Sample Panel"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8062808815584278198
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    UseParentWidth: true
-    UseParentHeight: true
-    Panel {
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:middlecenter"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 15126207785216231226
-  Name: "Sky"
+  Id: 13166939408216695751
+  Name: "Components"
   Transform {
     Location {
       Z: -50
@@ -222,12 +84,66 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Lighting"
+    FilePartitionName: "Components"
+  }
+}
+Objects {
+  Id: 15445705037976461651
+  Name: "Spawn Points"
+  Transform {
+    Location {
+      Z: -50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Spawns"
+  }
+}
+Objects {
+  Id: 15200848935840344137
+  Name: "Environment"
+  Transform {
+    Location {
+      Z: -50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Environment"
   }
 }
 Objects {
   Id: 5468045072130652745
-  Name: "Scripts"
+  Name: "Gameplay"
   Transform {
     Location {
     }
@@ -249,6 +165,32 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Scripts"
+  }
+}
+Objects {
+  Id: 11367646586856977032
+  Name: "User Interface"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "User Interface"
   }
 }
 Objects {
@@ -275,5 +217,32 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Settings"
+  }
+}
+Objects {
+  Id: 17879924926419492736
+  Name: "README"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 16211329154153141963
+    }
   }
 }

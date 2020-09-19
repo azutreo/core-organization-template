@@ -5,4 +5,7 @@ Description: "When I first began working on Core, my main struggle was figuring 
 MaxPlayers: 5
 IsOpenForEdit: true
 Tags: "Experimental"
-ScreenshotPaths: "C:\\Users\\nicho\\Development\\Core\\Projects\\Organization Template\\Screenshots\\Screenshot0002.png"
+ScreenshotPaths: "E:\\OneDrive\\Platforms\\Core\\Pictures\\Thumbnails\\OrganizationTemplateHierarchy.png"
+ScreenshotPaths: "E:\\OneDrive\\Platforms\\Core\\Pictures\\Thumbnails\\OrganizationTemplateBaseplate.png"
+ScreenshotPaths: "C:\\Users\\nicho\\Development\\Core\\Projects\\Personal\\Organization Template\\Screenshots\\Hierarchy.png"
+ScreenshotPaths: "C:\\Users\\nicho\\Development\\Core\\Projects\\Personal\\Organization Template\\Screenshots\\Screenshot0002.png"
