@@ -32,4 +32,5 @@
 	|_ Spawn Points - all spawn points for the game; recommended to create groups inside this folder for teams to help organization
 	|_ Components - groups/objects that are both art (building) and scripting; helps seperate scripted objects from pure art
 	|_ Scenery - pure art; only groups/objects that are static and non-moving and do not require scripting
+
 --]]

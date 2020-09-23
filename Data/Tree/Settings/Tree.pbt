@@ -27,7 +27,7 @@ Objects {
 }
 Objects {
   Id: 10247024335774272296
-  Name: "Primary"
+  Name: "Third Person"
   Transform {
     Location {
       Z: 190

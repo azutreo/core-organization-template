@@ -1,22 +1,22 @@
 ﻿Name: "Components"
 RootId: 13166939408216695751
 Objects {
-  Id: 14415300772706496238
-  Name: "Void"
+  Id: 17595719174612773602
+  Name: "KillZone"
   Transform {
     Location {
-      Z: -450
+      Z: -500
     }
     Rotation {
     }
     Scale {
       X: 1000
       Y: 1000
-      Z: 1
+      Z: 0.1
     }
   }
   ParentId: 13166939408216695751
-  ChildIds: 11117236302035066375
+  ChildIds: 12509581645832467677
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -32,10 +32,17 @@ Objects {
       Value: "mc:etriggershape:box"
     }
   }
+  InstanceHistory {
+    SelfId: 17595719174612773602
+    SubobjectId: 9464210638659690241
+    InstanceId: 6240429853496519730
+    TemplateId: 1634827738048127191
+    WasRoot: true
+  }
 }
 Objects {
-  Id: 11117236302035066375
-  Name: "Void"
+  Id: 12509581645832467677
+  Name: "KillZoneServer"
   Transform {
     Location {
       Z: 500
@@ -48,8 +55,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14415300772706496238
+  ParentId: 17595719174612773602
   UnregisteredParameters {
+    Overrides {
+      Name: "cs:Trigger"
+      ObjectReference {
+        SelfId: 17595719174612773602
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -61,5 +74,11 @@ Objects {
     ScriptAsset {
       Id: 5321318700814843422
     }
+  }
+  InstanceHistory {
+    SelfId: 12509581645832467677
+    SubobjectId: 15780008397909082430
+    InstanceId: 6240429853496519730
+    TemplateId: 1634827738048127191
   }
 }

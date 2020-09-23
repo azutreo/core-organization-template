@@ -84,9 +84,12 @@ Objects {
   Settings {
     IsDefault: true
     GameSettings {
+      RagdollOnDeath: true
+      EnablePlayerStorage: true
       ChatMode {
-        Value: "mc:echatmode:allonly"
+        Value: "mc:echatmode:teamandall"
       }
+      EnablePlayModeProfiler: true
     }
   }
 }

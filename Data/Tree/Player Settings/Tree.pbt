@@ -2,7 +2,7 @@
 RootId: 13993065374689110807
 Objects {
   Id: 11357974322781573795
-  Name: "Primary"
+  Name: "Third Person"
   Transform {
     Location {
     }
