@@ -1,6 +1,6 @@
 ﻿Assets {
   Id: 5321318700814843422
-  Name: "KillZoneServer"
+  Name: "KillZone"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {

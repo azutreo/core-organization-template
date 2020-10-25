@@ -221,7 +221,7 @@ Objects {
 }
 Objects {
   Id: 17879924926419492736
-  Name: "README"
+  Name: "ProjectHierarchy_README"
   Transform {
     Location {
     }

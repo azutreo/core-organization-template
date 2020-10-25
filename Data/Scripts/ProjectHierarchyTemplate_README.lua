@@ -1,19 +1,15 @@
-﻿-- README.lua
--- Simple readme/documentation for Organization Template
--- Created by Nicholas Foreman (https://www.coregames.com/user/f9df3457225741c89209f6d484d0eba8)
+﻿--[[
 
---[[
+	Project Hierarchy Template - README
+	1.0.0 - October 15, 2020
+	by Nicholas Foreman (https://www.coregames.com/user/f9df3457225741c89209f6d484d0eba8)
 
 		Hello, everyone! This is a sample project that will fit MOST design criterias. It includes a well-structured hierarchy to encourage
 	well-maintained organization and simplicity. This encourages creators to not only be creative but maintain a project that prevents
 	getting lost in the amazingness that will be created!
 
-	If you need any assistance, feel free to join the Core Discord server (https://discord.gg/core-creators) and ping me (@Nicholas Foreman#0001)
-	in #lua-help or #core-help! I will happily assist you. :) We are a friendly bunch of creators, so don't be shy to ask for help!
 
-	\\\\\\\\\
-	Hierarchy
-	/////////
+1.	Hierarchy
 
 	|_ Settings - the folder for everything related to how the game functions
 		|_ Server Settings - specific gameplay settings like game settings, team settings, and respawn settings
@@ -32,5 +28,13 @@
 	|_ Spawn Points - all spawn points for the game; recommended to create groups inside this folder for teams to help organization
 	|_ Components - groups/objects that are both art (building) and scripting; helps seperate scripted objects from pure art
 	|_ Scenery - pure art; only groups/objects that are static and non-moving and do not require scripting
+
+
+2.	Discord
+
+	If you have any questions, feel free to join the Core Hub Discord server:
+		discord.gg/core-creators
+	We are a friendly group of creators and players in the Core community. Everyone is welcome to play games together or
+	learn about game dev!
 
 --]]

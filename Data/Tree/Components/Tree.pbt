@@ -42,7 +42,7 @@ Objects {
 }
 Objects {
   Id: 12509581645832467677
-  Name: "KillZoneServer"
+  Name: "KillZone"
   Transform {
     Location {
       Z: 500

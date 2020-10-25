@@ -2,7 +2,7 @@
 RootId: 15200848935840344137
 Objects {
   Id: 11475990742535607296
-  Name: "Sound"
+  Name: "Audio"
   Transform {
     Location {
     }
@@ -23,7 +23,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Sound"
+    FilePartitionName: "Audio"
   }
 }
 Objects {

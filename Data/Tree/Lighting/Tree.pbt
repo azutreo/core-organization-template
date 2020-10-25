@@ -105,7 +105,6 @@ Objects {
   Name: "Skylight"
   Transform {
     Location {
-      Z: 750
     }
     Rotation {
     }
@@ -185,7 +184,6 @@ Objects {
   Name: "Sky Dome"
   Transform {
     Location {
-      Z: 750
     }
     Rotation {
     }
