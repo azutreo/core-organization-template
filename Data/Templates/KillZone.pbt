@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1634827738048127191
   Name: "KillZone"
   PlatformAssetType: 5
@@ -15,13 +15,22 @@
             Z: 10
           }
         }
-        ParentId: 13166939408216695751
+        ParentId: 4781671109827199097
         ChildIds: 15780008397909082430
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:RespawnOnEnter"
+            Bool: true
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Trigger {
           TeamSettings {
@@ -63,6 +72,9 @@
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Script {
           ScriptAsset {
             Id: 5321318700814843422
@@ -75,5 +87,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 65
+  SerializationVersion: 87
 }

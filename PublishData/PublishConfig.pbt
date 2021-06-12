@@ -7,6 +7,6 @@ IsOpenForEdit: true
 Tags: "Experimental"
 ScreenshotPaths: "E:\\OneDrive\\Platforms\\Core\\Pictures\\Thumbnails\\OrganizationTemplateHierarchy.png"
 ScreenshotPaths: "E:\\OneDrive\\Platforms\\Core\\Pictures\\Thumbnails\\OrganizationTemplateBaseplate.png"
-ScreenshotPaths: "C:\\Users\\nicho\\Development\\Core\\Projects\\Personal\\Organization Template\\Screenshots\\Hierarchy.png"
-ScreenshotPaths: "C:\\Users\\nicho\\Development\\Core\\Projects\\Personal\\Organization Template\\Screenshots\\Screenshot0002.png"
 OwnerId: "f9df3457225741c89209f6d484d0eba8"
+SerializationVersion: 1
+PublishedState: Public
